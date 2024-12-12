@@ -1,5 +1,5 @@
 {% set name = "xlens" %}
-{% set version = "0.3.0" %}
+{% set version = "0.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mr-superonion/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: a7cc9a4c5036e128f4ae17a326fc9a249f5708c52583b8a376b7a7c23f3356f3
+  sha256: ff65b54f2de2d9628542eb38866117bb4281e99cb4ee0a0d2cc573f7087e9b1b
 
 
 build:
@@ -26,7 +26,7 @@ requirements:
   run:
     - python ==3.11
     - lsstdesc-wl-shear-sims ==0.4.4
-    - anacal ==0.5.1
+    - anacal =={{ version }}
   
 
 test:
