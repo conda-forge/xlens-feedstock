@@ -1,5 +1,5 @@
 {% set name = "xlens" %}
-{% set version = "0.5.3" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mr-superonion/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 410ac2a7d6fff32dc1d28d40b1764d3f13c0ee67356e71e30ebceeac4dbeddb2
+  sha256: 69bbc6f7db15bf5ace5eb3dade20f2127b21bfbf02edfa9072eae9523526453b
 
 
 build:
