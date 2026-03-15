@@ -25,7 +25,6 @@ requirements:
     - pip
   run:
     - python ==3.11
-    - lsstdesc-wl-shear-sims ==0.4.4
     - anacal ==0.7.3
 
 
