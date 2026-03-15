@@ -169,6 +169,3 @@ Feedstock Maintainers
 * [@mr-superonion](https://github.com/mr-superonion/)
 * [@zhouconghao](https://github.com/zhouconghao/)
 
-
-<!-- dummy commit to enable rerendering -->
-
