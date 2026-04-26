@@ -12,7 +12,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [py<311 or py>311 or win or osx]
+  skip: true  # [py<311 or py>313 or win or osx]
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 
